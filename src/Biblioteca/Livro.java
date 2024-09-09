@@ -34,4 +34,11 @@ public class Livro {
 			System.out.println("O livro já está disponível.");
 		}
 	}
+	
+	public void exibirDetalhes() {
+        System.out.println("Título: " + titulo);
+        System.out.println("Autor: " + autor);
+        System.out.println("Ano: " + ano);
+        System.out.println("Disponível: " + (disponivel ? "Sim" : "Não"));
+    }
 }
